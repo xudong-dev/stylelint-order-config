@@ -1,0 +1,13 @@
+{
+  "name": "stylelint-order-config",
+  "private": true,
+  "scripts": {
+    "build": "node ."
+  },
+  "dependencies": {
+    "glob": "^7.1.4"
+  },
+  "devDependencies": {
+    "lerna": "^3.16.4"
+  }
+}
