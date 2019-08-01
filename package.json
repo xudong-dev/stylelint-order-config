@@ -2,7 +2,8 @@
   "name": "stylelint-order-config",
   "private": true,
   "scripts": {
-    "build": "node ."
+    "build": "node .",
+    "publish": "lerna publish"
   },
   "dependencies": {
     "glob": "^7.1.4"
