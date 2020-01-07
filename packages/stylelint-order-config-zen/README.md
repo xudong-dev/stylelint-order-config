@@ -8,7 +8,8 @@ npm i -D stylelint stylelint-order stylelint-order-config-zen
 
 ## Usage
 
-```json
+```js
+// .stylelintrc
 {
   "stylelint": {
     "extends": [

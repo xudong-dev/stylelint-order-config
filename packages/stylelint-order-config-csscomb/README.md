@@ -8,7 +8,8 @@ npm i -D stylelint stylelint-order stylelint-order-config-csscomb
 
 ## Usage
 
-```json
+```js
+// .stylelintrc
 {
   "stylelint": {
     "extends": [
