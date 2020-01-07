@@ -20,6 +20,7 @@
   },
   "scripts": {
     "build": "node .",
+    "prepublish": "npm run build",
     "publish": "lerna publish"
   },
   "dependencies": {
