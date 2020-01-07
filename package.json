@@ -1,14 +1,32 @@
 {
-  "name": "stylelint-order-config",
   "private": true,
+  "name": "stylelint-order-config",
+  "description": "",
+  "keywords": [
+    "stylelint",
+    "stylelint-order",
+    "stylelint-order-config"
+  ],
+  "author": {
+    "name": "Xudong Huang",
+    "email": "me@xudong.dev",
+    "url": "https://www.xudong.dev/"
+  },
+  "bugs": "https://github.com/xudong-dev/stylelint-order-config/issues",
+  "homepage": "https://github.com/xudong-dev/stylelint-order-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xudong-dev/stylelint-order-config.git"
+  },
   "scripts": {
     "build": "node .",
     "publish": "lerna publish"
   },
   "dependencies": {
-    "glob": "^7.1.4"
+    "glob": "^7.1.6"
   },
   "devDependencies": {
-    "lerna": "^3.16.4"
+    "csscomb": "^4.3.0",
+    "lerna": "^3.20.2"
   }
 }

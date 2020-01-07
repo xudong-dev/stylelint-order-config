@@ -1,6 +1,27 @@
 {
   "name": "stylelint-order-config-yandex",
   "version": "0.0.1",
+  "description": "",
+  "keywords": [
+    "stylelint",
+    "stylelint-order",
+    "stylelint-order-config",
+    "yandex"
+  ],
+  "author": {
+    "name": "Xudong Huang",
+    "email": "me@xudong.dev",
+    "url": "https://www.xudong.dev/"
+  },
+  "bugs": "https://github.com/xudong-dev/stylelint-order-config/issues",
+  "homepage": "https://github.com/xudong-dev/stylelint-order-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xudong-dev/stylelint-order-config.git"
+  },
+  "license": "MIT",
   "main": "index.js",
-  "license": "MIT"
+  "peerDependencies": {
+    "stylelint-order": "^3.0.0 || ^4.0.0"
+  }
 }

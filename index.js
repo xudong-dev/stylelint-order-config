@@ -2,7 +2,7 @@ const glob = require("glob");
 const fs = require("fs");
 const path = require("path");
 
-const files = glob.sync("./csscomb.js/config/*.json");
+const files = glob.sync("node_modules/csscomb/config/*.json");
 
 files.forEach(file => {
   const type = path.basename(file, path.extname(file));
@@ -19,7 +19,9 @@ files.forEach(file => {
         "at-rules",
         "less-mixins"
       ],
-      "order/properties-order": require(file)["sort-order"].map(properties => ({
+      "order/properties-order": require(`csscomb/config/${type}`)[
+        "sort-order"
+      ].map(properties => ({
         emptyLineBefore: "always",
         properties
       }))
@@ -34,3 +36,15 @@ files.forEach(file => {
     JSON.stringify(config, null, 2)
   );
 });
+
+fs.writeFileSync(
+  path.join(
+    process.cwd(),
+    `packages/stylelint-order-config-standard/config.json`
+  ),
+  JSON.stringify(
+    require("./packages/stylelint-order-config-yandex/config"),
+    null,
+    2
+  )
+);
