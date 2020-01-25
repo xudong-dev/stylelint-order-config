@@ -12,11 +12,11 @@
     "email": "me@xudong.dev",
     "url": "https://www.xudong.dev/"
   },
-  "bugs": "https://github.com/xudong-dev/stylelint-order-config/issues",
-  "homepage": "https://github.com/xudong-dev/stylelint-order-config#readme",
+  "bugs": "https://github.com/xudongdev/stylelint-order-config/issues",
+  "homepage": "https://github.com/xudongdev/stylelint-order-config#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xudong-dev/stylelint-order-config.git"
+    "url": "https://github.com/xudongdev/stylelint-order-config.git"
   },
   "scripts": {
     "build": "node .",
